@@ -4,7 +4,7 @@ const loader = document.getElementById("loader");
 // Unsplah API
 const count = 5;
 const query = "nature";
-const apiKey = process.env.UNSPLASH_APIKey;
+const apiKey = "N23ww1uL_nM19fpjgVjUJ8oyBe6fZtgpJv0uAfiToAg";
 const apiUrl = `https://api.unsplash.com/photos/random/?count=${count}&client_id=${apiKey}&query=${query}`;
 
 let ready = false;
