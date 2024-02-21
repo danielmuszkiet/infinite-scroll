@@ -82,5 +82,3 @@ window.addEventListener("scroll", () => {
 
 // On Load
 getPhotos();
-
-console.log(process.env.UNSPLASH_API_KEY);
